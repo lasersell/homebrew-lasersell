@@ -2,27 +2,27 @@ class Lasersell < Formula
   desc "LaserSell CLI daemon for automated exits on Solana trades"
   homepage "https://lasersell.io"
   license "Proprietary"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.0/lasersell_0.2.0_darwin_arm64.tar.gz"
-      sha256 "4ef0f82347ad399add768f6746c40af6477298466de7513b089ce23141d7af77"
+      url "https://lasersell.github.io/apt/binaries/lasersell/0.2.1/lasersell_0.2.1_darwin_arm64.tar.gz"
+      sha256 "fc381f481204af8387933b260581535a9c8ebaf665fb57a2d4767215874fd30e"
     end
     on_intel do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.0/lasersell_0.2.0_darwin_amd64.tar.gz"
-      sha256 "6097157b547e9d55ddecd9a1ddc52aa13b9d64a35a64f6a2e5e66b8f5e3ae8b5"
+      url "https://lasersell.github.io/apt/binaries/lasersell/0.2.1/lasersell_0.2.1_darwin_amd64.tar.gz"
+      sha256 "bc894c3e8101ef755117b5be02fd93b4beec5dd5df41fde96176f38629214d5b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.0/lasersell_0.2.0_linux_arm64.tar.gz"
-      sha256 "7b8d8bd075fd719e4a066d506fe20b979b789b0ca71209a250334d8fec413326"
+      url "https://lasersell.github.io/apt/binaries/lasersell/0.2.1/lasersell_0.2.1_linux_arm64.tar.gz"
+      sha256 "2d574e1efd31fd5b5b2e23ad86a8c0936174f2d514eb1393ee2c00afd1954232"
     end
     on_intel do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.0/lasersell_0.2.0_linux_amd64.tar.gz"
-      sha256 "88fff24daae54cf98fa77e485fbd0adb729a3e456722049a5d59acd110ea900a"
+      url "https://lasersell.github.io/apt/binaries/lasersell/0.2.1/lasersell_0.2.1_linux_amd64.tar.gz"
+      sha256 "584342e289f5d14fdd9213edbfc6c405799949291f716a2beda81a8f715c1b24"
     end
   end
 
@@ -35,7 +35,7 @@ class Lasersell < Formula
   end
 
   livecheck do
-    url "https://dl.lasersell.io/binaries/lasersell/latest.txt"
+    url "https://lasersell.github.io/apt/binaries/lasersell/latest.txt"
     regex(/(\d+\.\d+\.\d+)/)
   end
 end
