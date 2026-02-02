@@ -7,22 +7,22 @@ class Lasersell < Formula
   on_macos do
     on_arm do
       url "https://lasersell.github.io/apt/binaries/lasersell/0.2.2/lasersell_0.2.2_darwin_arm64.tar.gz"
-      sha256 "a90e5aae36f97722ce1ec4b506ecfc6dc2aa96010e2a6bc7066e2826f41a9736"
+      sha256 "b05c51ac30cba9378038ef153c1af88a7e1bd18ccc372eb56e8ad7573584c3ca"
     end
     on_intel do
       url "https://lasersell.github.io/apt/binaries/lasersell/0.2.2/lasersell_0.2.2_darwin_amd64.tar.gz"
-      sha256 "afaf0331dfbd686b95bbf43cf5597fcf89dc89ebfd40b34bd6232c6be86fb7a9"
+      sha256 "5b42aaca0e24448738ee84f7eb10950264d5992ac81e5e1e855829fb3d5d9b9b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://lasersell.github.io/apt/binaries/lasersell/0.2.2/lasersell_0.2.2_linux_arm64.tar.gz"
-      sha256 "b84e396a2a197c7c39d96cb0fcf89b8a50a70416c6335cdca73ef874f7e3dfd1"
+      sha256 "f86bdf77bb5288de8f0449a5aa522c2adaa6dea9d71e82480cc774fb521330dd"
     end
     on_intel do
       url "https://lasersell.github.io/apt/binaries/lasersell/0.2.2/lasersell_0.2.2_linux_amd64.tar.gz"
-      sha256 "fd24a9b316db7541ce31ed3d04a0ceffc9d889ea8da4b254f7b217a70ee96e8a"
+      sha256 "da1fb91a52725f5ac21797a86bf2746068ee32a7e166e847e221699696daca69"
     end
   end
 
