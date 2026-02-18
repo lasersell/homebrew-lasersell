@@ -1,5 +1,5 @@
 class Lasersell < Formula
-  desc "LaserSell CLI daemon for automated exits on Solana trades"
+  desc "LaserSell: Solana trading client with exit intelligence for automated strategy execution"
   homepage "https://lasersell.io"
   license "Proprietary"
   version "0.2.2"
