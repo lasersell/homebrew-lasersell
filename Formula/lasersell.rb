@@ -1,28 +1,28 @@
 class Lasersell < Formula
   desc "LaserSell: Solana trading client with exit intelligence for automated strategy execution"
   homepage "https://lasersell.io"
-  license "Proprietary"
-  version "0.2.2"
+  license "MIT"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.2/lasersell_0.2.2_darwin_arm64.tar.gz"
-      sha256 "b05c51ac30cba9378038ef153c1af88a7e1bd18ccc372eb56e8ad7573584c3ca"
+      url "https://dl.lasersell.io/binaries/lasersell/0.3.0/lasersell_0.3.0_darwin_arm64.tar.gz"
+      sha256 "e55b0f9e580d6c796ffc4c6584675dd624aedaf43e0b78d58f0643b3dea93d78"
     end
     on_intel do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.2/lasersell_0.2.2_darwin_amd64.tar.gz"
-      sha256 "5b42aaca0e24448738ee84f7eb10950264d5992ac81e5e1e855829fb3d5d9b9b"
+      url "https://dl.lasersell.io/binaries/lasersell/0.3.0/lasersell_0.3.0_darwin_amd64.tar.gz"
+      sha256 "cba756a393ff7912153b9bc314e9a970ef90de164826db92677767cf0d6a859a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.2/lasersell_0.2.2_linux_arm64.tar.gz"
-      sha256 "f86bdf77bb5288de8f0449a5aa522c2adaa6dea9d71e82480cc774fb521330dd"
+      url "https://dl.lasersell.io/binaries/lasersell/0.3.0/lasersell_0.3.0_linux_arm64.tar.gz"
+      sha256 "1150d9d401b820dc87dbc17f54c0917d18aa707c16221693c5d18777fd4788fe"
     end
     on_intel do
-      url "https://dl.lasersell.io/binaries/lasersell/0.2.2/lasersell_0.2.2_linux_amd64.tar.gz"
-      sha256 "da1fb91a52725f5ac21797a86bf2746068ee32a7e166e847e221699696daca69"
+      url "https://dl.lasersell.io/binaries/lasersell/0.3.0/lasersell_0.3.0_linux_amd64.tar.gz"
+      sha256 "29c28a4e7be73c5d72d5899b3075e20ba204c5fafe405c2e2bb3d2923e52aa2a"
     end
   end
 
